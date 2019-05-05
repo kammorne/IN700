@@ -1,2 +1,1 @@
-# lagoma1_IN700
-A Repository for my Portfolio Regarding IN700 Project
+# <a href="https://kammorne.github.io/lagoma1_IN700/">Portfolio</a>

@@ -1,0 +1,3 @@
+name: Michael Lagocki, Multimedia Portfolio
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

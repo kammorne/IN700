@@ -1,0 +1,22 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1, a
+{
+    font-family: Arial;
+}
+h2
+{
+    background-color: #ccc;
+}
+.character
+{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+.cameraAction
+{
+    text-align: right;
+}
