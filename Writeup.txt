@@ -1,0 +1,75 @@
+WEEK 1, 1
+Didn't really achieve anything this class. It was essentially a get to know what's going on with the class this semester and get our computers organized.
+Adon did give us the task of figuring out what we want to do for project this semester, and said that we should pick one that we would like to do, but also
+have an extra one organized for the event where our selected project isn't available.
+WEEK 1, 2
+Found out what project I was in, and had to move computers to the area where our team would set up.
+WEEK 2, 1
+We had a look through some of the previous member's documentation regarding the temperature sensors, and had a crack at making a few of them ourselves, using the
+documentation as a guide. The documentation itself was quite good and I only got stuck on a small bit regarding the keys the devices had to be assigned.
+WEEK 2, 2
+We had our first scrum as a team today, and we discussed certain tickets and how the team was going to get through with it. I ended up being assigned to creating a
+website for Linus, one of our clients, that would display the information being sent from the temperature sensors we created in the previous class. After doing a bit
+of research and talking to the other members of the team who were here last semester, I found out the devices used an MQTT broadcast to send the data. Unfortunately, none
+of the team knew more than that, so I talked to Tom and asked if he could provide some information about how the devices actually send information. He provided a rough but
+understandable diagram of how the nodes sent information through the gateway to the LoRa server, and then how it was sent through the MQTT Broadcast, before being saved in a
+database. With that in mind, I began working on the website for Linus.
+WEEK 3, 1
+On Monday, I continued my work on the website for Linus, and began researching on how to get an MQTT Broadcast onto a website. After some searching online, I found a helpful
+tutorial which ended up being created by Tom himself. After following the tutorial, I had the website recieving MQTT broadcasts, however it was receiving everything that was 
+being sent through the LoRa server. After talking to Tom again, he provided some more assistance on getting the website to search for specific MQTT Broadcasts, and after some tinkering,
+we had the website displaying the information from the temperature sensors.
+WEEK 3, 2
+I ended up spending today tinkering on the formatting of the website, because I had it only decoding the information from the sensor, and the formatting on that was readable, but
+it wasn't what I was after. After doing some tinkering on the JS side of the website, I had the data being split into 3 different parts, which I then could format to fit the style
+I was going for on the website. I also talked to Martin about getting a repository set up on GitLab so that we could host the website online, and so that the other team members could
+access it themselves if they wanted to use it for their own nodes.
+WEEK 4, 1
+WEEK 4, 2
+WEEK 5, 1
+WEEK 5, 2
+Martin ended up bringing up an idea for a "Database Webapp", which would be able to host the information from all of the nodes we've made, and display it to be able to look through it easily.
+Since I'm into the web side of things in the group, I decided to take on the challenge, and began putting a simple HTML site together. 
+WEEK 6, 1
+I've continued work on the database Webapp, converting the site from HTML to a python webapp, like what I'm currently learning in Web 3. I chose this as I found out from Tom that the data is stored
+in a MongoDB database, rather than something like MariaDB, which I already had experience working with. Because of this, I've had to done a lot more research on how to actually connect to the database,
+since I can't find any information in our repositories.
+WEEK 6, 2
+I asked about the Dev Ops team today to see if anyone would be able to give any information about connecting to the database, since I was still having issues doing so on my application. I ended up getting
+referred to Isabel, who apparently did the kind of thing I'm doing last year, and had some documentation regarding it which may help me. I ended up contacting Isabel about the documentation, since it wasn't
+showing up in our repositories for the IoT Project.
+WEEK 6, EXTRA
+Ended up volunteering for Age Concern on Friday, although it didn't end up going anywhere. I arrived 2 minutes early after trying to find a park close by,
+and went in. However, the office was locked and I couldn't find anyone in the building. I ended up waiting for an extra 10 minutes before leaving as nobody
+showed up, and I wasn't able to help out.
+WEEK 7, 1
+Finally caught up with Isabel today, and she showed me how to connect to the MongoDB database, and retrieve information from it. Afterwards, I finally managed to get a connection working, and I had the information
+from the database reading into a console readout, which is a huge step towards the first ticket for the data webapp. I've begun tinkering with passing the data through to the website I've got, and I managed to get
+all of the data actually on the page, although without formatting.
+WEEK 7, 2
+Continued work with the database webapp, formatting the information on the screen. I finally got it formatted and closed the ticket for getting the data onto the webapp. However, That opened other tickets for me such
+as getting the all_data page working, since I could only get the data on the page if you entered a node's name.
+WEEK 8, 1
+Today I found out that the repository that Martin created for the Iot Data webapp was public, and the app.py file contained sensitive information for logging in.
+I've ended up fixing that problem, and began work on trying to format the data for all of the nodes saved in the database. However, I feel like I'm going to have
+to find a different strategy for getting information from the database, as after a 'quick' test, it turned out the webapp would take 5 minutes to load the data and
+display it to the screen. I feel like this wouldn't be acceptable as a final result, so I'm going to research better ways of accessing MongoDB, which will hopefully
+take less time than what I've been using currently.
+WEEK 8, 2
+Currently Reworking the parsing information from the db to the website, as due to what happened on Monday, I figured it wouldn't be acceptable for a webapp to take 5
+minutes to load the information from the server, every time you load the webpage. I've changed it so the webapp loads the data when it's first turned on, and then simply
+grabs the required data when the page is loaded. Currently I'm testing to see if that works.
+MID-SEMESTER BREAK, WEEK 1
+Didn't really achieve much on project work this first week. I ended up spending some time catching up with some friends, working on other class assignments, and having to go to work for some of the days, which didn't leave
+me with much energy or time to work on the project work.
+MID-SEMESTER BREAK, WEEK 2
+I ended up spending some time working on my portfolio, which I plan on hosting on Github pages once I've organized everything for it. In relation to my project work however, I haven't continued working on it yet, but plan
+on returning to it once the semester resumes.
+WEEK 9, 1
+Continued work on reformatting the data from the database onto the webapp. I've managed to get information back onto the webpage after reformatting how the data is loaded from the database into the app itself, but however,
+I'm only currently getting one result when I load the page, so I'm trying different methods on getting the data onto the page now.
+After working with it for a little while longer, I have the data loading to the page, however it is only the latest result from each node, rather than every single reading from the nodes. I'll continue to look at this later,
+as I've run out of time for it right now.
+I've also sent Fletcher some information regarding the MQTT website I created earlier in the semester, since he wanted to add the information to the BIT IoT Project page.
+WEKK 9, 2
+Martin gave me a hand with getting the data passed into the website today, and while doing so helped point out a major flaw with the method I was using to get the
