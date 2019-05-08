@@ -65,11 +65,22 @@ me with much energy or time to work on the project work.
 MID-SEMESTER BREAK, WEEK 2
 I ended up spending some time working on my portfolio, which I plan on hosting on Github pages once I've organized everything for it. In relation to my project work however, I haven't continued working on it yet, but plan
 on returning to it once the semester resumes.
-WEEK 9, 1
+WEEK 9, 1 29/4/19
 Continued work on reformatting the data from the database onto the webapp. I've managed to get information back onto the webpage after reformatting how the data is loaded from the database into the app itself, but however,
 I'm only currently getting one result when I load the page, so I'm trying different methods on getting the data onto the page now.
 After working with it for a little while longer, I have the data loading to the page, however it is only the latest result from each node, rather than every single reading from the nodes. I'll continue to look at this later,
 as I've run out of time for it right now.
 I've also sent Fletcher some information regarding the MQTT website I created earlier in the semester, since he wanted to add the information to the BIT IoT Project page.
-WEKK 9, 2
+WEKK 9, 2 2/5/19
 Martin gave me a hand with getting the data passed into the website today, and while doing so helped point out a major flaw with the method I was using to get the
+WEEK 9, EXTRA 3/5/19
+Volunteered at Age Concern again, as per Kerri's request, since the people originally going weren't able to make it. I was given some more information about how to find the proper location this time, so that
+I wouldn't get a repeat of last time. After arriving and finding out what was going on, Nick and I sat down and helped a gentleman out with some issues he was having with his computer at home.
+We spent a good 50 minutes helping this guy out, and he seemed very thankful for all the help we had given him when we were done. He did say there were some other issues he had, however he didn't have the time
+to go over them, since he had to catch a bus afterwards.
+In the end, Nick and I ended up leaving at about 2:15 since the ladies in charge said that they should be fine, and there wasn't any more clients coming in that day. They were very thankful for us coming in and
+helping out however.
+WEEK 10, 1 6/5/19
+Got the data moving to the front end, however decoding it from the JSON file returns undefined in all fields. Another problem I encountered was limiting the amount of data going through from the backend.
+Unfortunately, the data is stored in segments, depending on the device, so using the .limit() function that is included with MongoDB only limits the amount of devices being selected from the database.
+I think I've come up with a solution however, but I'll have to implement it later since I've run out of time for today.
