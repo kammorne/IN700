@@ -6,7 +6,7 @@ category: Project
 tags: project web-development mqtt linus jekyll
 ---
 
-#Linus Webpage Tips
+# Linus Webpage Tips
 
 On Monday, I continued my work on the website for Linus, and began researching on how to get an MQTT Broadcast onto a website. After some searching online, I found a helpful
 tutorial which ended up being created by Tom himself. After following the tutorial, I had the website recieving MQTT broadcasts, however it was receiving everything that was 
