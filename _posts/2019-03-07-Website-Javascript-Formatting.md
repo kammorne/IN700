@@ -6,7 +6,7 @@ category: Project
 tags: project web-development javascript jekyll
 ---
 
-#Website Formatting with Javascript
+# Website Formatting with Javascript
 
 I ended up spending today tinkering on the formatting of the website, because I had it only decoding the information from the sensor, and the formatting on that was readable, but
 it wasn't what I was after. After doing some tinkering on the JS side of the website, I had the data being split into 3 different parts, which I then could format to fit the style
