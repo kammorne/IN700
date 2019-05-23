@@ -6,7 +6,7 @@ category: Project
 tags: project nodes web-development jekyll
 ---
 
-#Scrums and Tickets
+# Scrums and Tickets
 
 We had our first scrum as a team today, and we discussed certain tickets and how the team was going to get through with it. I ended up being assigned to creating a
 website for Linus, one of our clients, that would display the information being sent from the temperature sensors we created in the previous class. After doing a bit
