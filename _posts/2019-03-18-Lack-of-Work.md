@@ -6,7 +6,7 @@ category: Project
 tags: project web-development mqtt server jekyll
 ---
 
-#Lack of Work
+# Lack of Work
 
 Had a scrum regarding the way the whole group was heading. Apparently it was looking like the team wasn't doing much, as we weren't really commiting to gitlab, so there wasn't much evidence on
 what we were actually doing, apart from actually seeing what we were working on. We discussed how the server was sending and receiving data.
