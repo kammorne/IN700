@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Website Javascript Formatting"
-date: 2019-03-04
+date: 2019-03-07
 category: Project
 tags: project web-development javascript jekyll
 ---
