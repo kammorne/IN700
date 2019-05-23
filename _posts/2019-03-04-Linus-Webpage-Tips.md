@@ -13,4 +13,4 @@ tutorial which ended up being created by Tom himself. After following the tutori
 being sent through the LoRa server. After talking to Tom again, he provided some more assistance on getting the website to search for specific MQTT Broadcasts, and after some tinkering,
 we had the website displaying the information from the temperature sensors.
 
-![Web Development](https://kammorne.github.io/lagoma1_IN700/img/evidenceWebDev2.jpg)
+![JSON Parse](https://kammorne.github.io/lagoma1_IN700/img/evidenceJSONParse.jpg)
