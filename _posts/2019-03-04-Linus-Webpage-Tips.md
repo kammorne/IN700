@@ -3,7 +3,7 @@ layout: post
 title: "Linus Webpage Tips"
 date: 2019-03-04
 category: Project
-tags: project web-development jekyll
+tags: project web-development mqtt linus jekyll
 ---
 
 #Linus Webpage Tips
