@@ -1,0 +1,20 @@
+---
+layout: default
+title: Volunteering
+---
+    <h1>{{ page.title }}</h1>
+    <p>Listed Below are the posts regarding when I volunteered for Age Concern.</p>
+        <ul class="posts">
+         {% for post in site.posts %}
+             {% if post.tags contains 'volunteering' %}
+             <li>
+             <h3>
+             <a href="{{ post.url }}">
+             {{ post.title }}
+             <small>{{ post.date | date_to_string }}</small>
+             </a>
+             </h3>
+             </li>
+             {% endif %}
+         {% endfor %}
+        </ul>
