@@ -1,3 +1,6 @@
 name: Michael Lagocki, Project Portfolio
 markdown: kramdown
 permalink: /lagoma1_IN700/blog/:year/:month/:day/:title
+
+baseurl: "/lagoma1_IN700"
+url: "http://kammorne.github.io/"
