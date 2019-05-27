@@ -107,3 +107,4 @@ instead, which may work better for user accessibility.
 WEEK 12, 2 23/5/19
 Added some nicer formatting to the node data page, giving a cleaner look to the tables. I've also added the option to toggle the visibility of certain nodes, allowing a user to see information for multiple nodes they wish
 to see. 
+WEEK 13, 1 27/5/19
