@@ -6,9 +6,9 @@ layout: feed
 
 	<title>Michael Lagocki's</title>
 	<link href="http://kammorne.github.io/lagoma1_IN700/blog/atom.xml" rel="self"/>
-	<link href="http://kammorne.github.io/lagoma1_IN700/blog/"/>
+	<link href="http://kammorne.github.io/lagoma1_IN700/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://kammorne.github.io/lagoma1_IN700/blog/</id>
+	<id>http://kammorne.github.io/lagoma1_IN700/blog</id>
 	<author>
 		<name>Michael Lagocki</name>
 		<email>kammorne@gmail.com</email>
@@ -17,9 +17,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://kammorne.github.io/lagoma1_IN700/{{ post.url }}"/>
+			<link href="http://kammorne.github.io/lagoma1_IN700{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://kammorne.github.io/lagoma1_IN700/{{ post.id }}</id>
+			<id>http://kammorne.github.io/lagoma1_IN700{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
