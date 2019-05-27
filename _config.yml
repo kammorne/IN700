@@ -1,4 +1,3 @@
 name: Michael Lagocki, Project Portfolio
 markdown: kramdown
-permalink: /lagoma1_IN700/
-permalink: /blog/:year/:month/:day/:title
+permalink: /site.baseurl/blog/:year/:month/:day/:title
