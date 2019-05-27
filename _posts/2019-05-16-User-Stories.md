@@ -3,7 +3,7 @@ layout: post
 title: "Negotiation of User Stories"
 date: 2019-05-16
 category: Project
-tags: project web-development iotdata webapp server python jekyll
+tags: project web-development iotdata webapp server jekyll
 ---
 
 # Negotiation of User Stories
