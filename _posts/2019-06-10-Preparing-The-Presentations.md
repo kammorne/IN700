@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Preparing the Presentations"
-date: 2019-06-40
+date: 2019-06-10
 category: Classwork
 tags: classwork project jekyll
 ---
