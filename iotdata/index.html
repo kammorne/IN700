@@ -1,1 +1,25 @@
-
+---
+layout: default
+title: IoT Data Webapp
+---
+    <h1>{{ page.title }}</h1>
+    <p>This semester, most of my development time has gone towards creating a webapp to display all of the data we have from the nodes we've
+created previously. This webapp has the capibility to display the latest 100 entries from any of our nodes, and allows the users to look at a single
+node's data.
+The future plans for this app are to have google authentication for logging in, which will link in to allowing users to create new nodes under their login,
+and then have that user be able to see only their nodes if they wish, or they can look at the other nodes data like they already can.</p>
+    <p>Below are the blog posts of all the work I've done for the IoT Data Webapp. They have more in-depth information than what can be found here on the index.</p>
+        <ul class="posts">
+         {% for post in site.posts %}
+             {% if post.tags contains 'iotdata' %}
+             <li>
+             <h3>
+             <a href="{{ site.baseurl }}{{ post.url }}">
+             {{ post.title }}
+             <small>{{ post.date | date_to_string }}</small>
+             </a>
+             </h3>
+             </li>
+             {% endif %}
+         {% endfor %}
+        </ul>
