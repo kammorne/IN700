@@ -6,7 +6,7 @@ category: Project
 tags: project web-development iotdata webapp server python jekyll
 ---
 
-#Major Flaws
+# Major Flaws
 
 Martin gave me a hand with getting the data passed into the website today, and while doing so helped point out a major flaw
 with the method I was using to get the information from MongoDB to the website. After talking to him and optimizing the loading of the
