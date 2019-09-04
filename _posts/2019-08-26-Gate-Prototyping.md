@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gate Prototyping"
-date: 2019-08-29
+date: 2019-08-26
 category: Classwork
 tags: classwork project thingsnetwork orokonui jekyll
 ---
