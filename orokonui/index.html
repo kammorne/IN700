@@ -3,8 +3,19 @@ layout: default
 title: Orokonui
 ---
     <h1>{{ page.title }}</h1>
-      <ul class="posts">
-         {% for post in site.posts %}
+        <p>This semester, We decided as a group that we should focus on getting something done for the Orokonui Project, since it had been
+            an ongoing project for that last few years. This semester, we focused on getting some gate prototypes designed around the current
+            gates, rather than creating a whole new system that would require removing the existing hardware around the eco-sanctuary. By doing this
+            we have gotten more creative on how to implement the new gate prototypes, and came up with different solutions for the different gates
+            around Orokonui.</p>
+
+        <p>I was also tasked with working with Josh to fix the existing Orokonui web app, since James left us with a barebones shell of a web app which
+            didn't provide much use, along with providing absolutely no documentation regarding the web app at all. This semester, Josh and I spent a lot
+            of time decoding and picking at the web app to figure out how it worked, along with changing multiple things with the web app to make it more
+            usable, such as implementing a SQL Database connection, alongside using a safer .ENV file to keep sensitive information out of our public repositories.</p>
+        
+        <p>Below are the posts regarding the work on Orokonui, both from Project 1 and Project 2</p>   
+        {% for post in site.posts %}
              {% if post.tags contains 'orokonui' %}
              <li>
              <h3>
