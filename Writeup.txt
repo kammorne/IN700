@@ -108,3 +108,5 @@ WEEK 12, 2 23/5/19
 Added some nicer formatting to the node data page, giving a cleaner look to the tables. I've also added the option to toggle the visibility of certain nodes, allowing a user to see information for multiple nodes they wish
 to see. 
 WEEK 13, 1 27/5/19
+Talked to the dev-ops team today about getting a VM organized to host the iotdata webapp. After some issues with information being sent via the ticketing service, I've got the information for logging into the VM, and am currently
+working on adding the required apps to run the webapp on the server.
