@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orokonui Web App Tinkering"
+title: "Removing Hardcoded Data"
 date: 2019-09-16
 category: Classwork
 tags: classwork project thingsnetwork orokonui web-app jekyll
