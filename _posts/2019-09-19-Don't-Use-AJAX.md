@@ -3,7 +3,7 @@ layout: post
 title: "Don't Use AJAX"
 date: 2019-09-19
 category: Classwork
-tags: classwork project thingsnetwork orokonui web-app jekyll
+tags: classwork project thingsnetwork orokonui webapp jekyll
 ---
 
 # Don't Use AJAX

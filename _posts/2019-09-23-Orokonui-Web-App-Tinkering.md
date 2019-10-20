@@ -3,7 +3,7 @@ layout: post
 title: "Orokonui Web App Tinkering"
 date: 2019-09-23
 category: Classwork
-tags: classwork project thingsnetwork orokonui web-app jekyll
+tags: classwork project thingsnetwork orokonui webapp jekyll
 ---
 
 # Web App Tinkering

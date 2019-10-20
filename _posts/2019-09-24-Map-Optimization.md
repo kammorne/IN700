@@ -3,7 +3,7 @@ layout: post
 title: "Map Optimization"
 date: 2019-09-24
 category: Classwork
-tags: classwork project thingsnetwork orokonui web-app jekyll
+tags: classwork project thingsnetwork orokonui webapp jekyll
 ---
 
 # Map Optimization

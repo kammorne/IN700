@@ -3,7 +3,7 @@ layout: post
 title: "Map SQL Queries"
 date: 2019-09-26
 category: Classwork
-tags: classwork project thingsnetwork orokonui web-app jekyll
+tags: classwork project thingsnetwork orokonui webapp jekyll
 ---
 
 # Map SQL Queries

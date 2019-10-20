@@ -3,7 +3,7 @@ layout: post
 title: "Removing Hardcoded Data"
 date: 2019-09-16
 category: Classwork
-tags: classwork project thingsnetwork orokonui web-app jekyll
+tags: classwork project thingsnetwork orokonui webapp jekyll
 ---
 
 # Removing Hardcoded Data
