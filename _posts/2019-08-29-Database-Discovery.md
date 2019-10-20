@@ -13,3 +13,5 @@ switchover. Because of how the Things Network sends data, the database wasn't ge
 Virtual Machine and have a look at how the database was receiving items, and then saving to the database. After talking with Henry for a bit, we
 found out that it would be easily fixed with a few name changes in the file, as well as a topic change. However, after doing so, the virtual machine
 would pick up the node data, but not save it. I was stumped and decided to go home and research why it wouldn't be working.
+
+![TTN Update](https://kammorne.github.io/lagoma1_IN700/img/TTNUpdate.png)
