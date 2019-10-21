@@ -3,7 +3,7 @@ layout: post
 title: "Fixing Orokonui Again"
 date: 2019-10-21
 category: Project
-tags: project web-development orkonui webapp jekyll
+tags: project web-development orokonui webapp jekyll
 ---
 
 # Fixing Orokonui Again
