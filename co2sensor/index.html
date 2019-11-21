@@ -1,0 +1,24 @@
+---
+layout: default
+title: CO2 Sensors
+---
+    <h1>{{ page.title }}</h1>
+        <p>For Project 2, I realised I wasn't really doing enough work just working on the web apps that we're using, so I decided that it was
+        time to help out some more with some of the physical hardware. I ended up helping Callum a lot with the CO2 sensors near the end of the
+        semester, tinkering with 3D designs, learning to solder with the breadboards, and just exploring more into working with this kind of hardware.</p>
+            
+        <p>Below are the posts regarding the work on the CO2 Sensors</p>
+        <ul>
+        {% for post in site.posts %}
+             {% if post.tags contains 'co2sensor' %}
+             <li>
+             <h3>
+             <a href="{{ site.baseurl }}{{ post.url }}">
+             {{ post.title }}
+             <small>{{ post.date | date_to_string }}</small>
+             </a>
+             </h3>
+             </li>
+             {% endif %}
+         {% endfor %}
+        </ul>
