@@ -3,7 +3,7 @@ layout: post
 title: "New CO2 Cases and Orokonui Web App Work"
 date: 2019-11-18
 category: Classwork
-tags: classwork project thingsnetwork co2sensor jekyll
+tags: classwork project thingsnetwork co2sensor orokonui webapp jekyll
 ---
 
 # New C02 Sensor Cases
