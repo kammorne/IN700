@@ -28,7 +28,11 @@ decided to get out the trusty Dremmel and sand away a small bit of the gate so t
 
 ![Sensor Fitment](https://kammorne.github.io/lagoma1_IN700/img/Gate2Fitment.jpg)
 
-Once that was sorted, we attached the box to the other gate, mounting it with extreme caution and safety techniques in mind. Once the sensor box was installed,
+Once that was sorted, we attached the box to the other gate, mounting it with extreme caution and safety techniques in mind.
+
+![Gate 2 Box](https://kammorne.github.io/lagoma1_IN700/img/Gate2.jpg)
+
+Once the sensor box was installed,
 we made sure the wires weren't going to be an issue by covering them in heatwrap, and making sure the cables were tucked neatly away from prying Kaka eyes and
 their beaks. Speaking of, we had one of them observing us most of the time, and even landed on Tony's head.
 
