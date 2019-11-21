@@ -29,7 +29,7 @@ device onto the post next to the gate.
 The job went quickly, and we were soon done with the first gate, having it connectly and secured to the post. We weren't sure if the gate was going to
 be sending data yet, so we made our way back to the shed to set up the gateway, and then test to see if we got any packets.
 
-![Orokonui1-2](https://kammorne.github.io/lagoma1_IN700/img/OrokonuiGate1Box.jpg)
+![Orokonui1-2](https://kammorne.github.io/lagoma1_IN700/img/OrokonuiGate1Box.JPG)
 
 There was a bit of a panic at the shed as we realised there wasn't really a way to connect to the gateway, but after some searching about and talking to
 staff members, we got the WiFi password, and Josh was able to SSH into the gateway. Henry took over, and adjusted some settings for the Gateway to change it
