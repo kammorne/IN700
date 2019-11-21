@@ -3,4 +3,4 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 baseurl: "/lagoma1_IN700"
-url: "http://kammorne.github.io/"
+url: "http://kammorne.github.io/lagoma1_IN700"
