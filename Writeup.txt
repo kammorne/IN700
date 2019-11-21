@@ -1,112 +1,103 @@
-WEEK 1, 1 18/2/19
-Didn't really achieve anything this class. It was essentially a get to know what's going on with the class this semester and get our computers organized.
-Adon did give us the task of figuring out what we want to do for project this semester, and said that we should pick one that we would like to do, but also
-have an extra one organized for the event where our selected project isn't available.
-WEEK 1, 2 21/2/19
-Found out what project I was in, and had to move computers to the area where our team would set up.
-WEEK 2, 1 25/2/19
-We had a look through some of the previous member's documentation regarding the temperature sensors, and had a crack at making a few of them ourselves, using the
-documentation as a guide. The documentation itself was quite good and I only got stuck on a small bit regarding the keys the devices had to be assigned.
-WEEK 2, 2 28/2/19
-We had our first scrum as a team today, and we discussed certain tickets and how the team was going to get through with it. I ended up being assigned to creating a
-website for Linus, one of our clients, that would display the information being sent from the temperature sensors we created in the previous class. After doing a bit
-of research and talking to the other members of the team who were here last semester, I found out the devices used an MQTT broadcast to send the data. Unfortunately, none
-of the team knew more than that, so I talked to Tom and asked if he could provide some information about how the devices actually send information. He provided a rough but
-understandable diagram of how the nodes sent information through the gateway to the LoRa server, and then how it was sent through the MQTT Broadcast, before being saved in a
-database. With that in mind, I began working on the website for Linus.
-WEEK 3, 1 4/3/19
-On Monday, I continued my work on the website for Linus, and began researching on how to get an MQTT Broadcast onto a website. After some searching online, I found a helpful
-tutorial which ended up being created by Tom himself. After following the tutorial, I had the website recieving MQTT broadcasts, however it was receiving everything that was 
-being sent through the LoRa server. After talking to Tom again, he provided some more assistance on getting the website to search for specific MQTT Broadcasts, and after some tinkering,
-we had the website displaying the information from the temperature sensors.
-WEEK 3, 2 7/3/19
-I ended up spending today tinkering on the formatting of the website, because I had it only decoding the information from the sensor, and the formatting on that was readable, but
-it wasn't what I was after. After doing some tinkering on the JS side of the website, I had the data being split into 3 different parts, which I then could format to fit the style
-I was going for on the website. I also talked to Martin about getting a repository set up on GitLab so that we could host the website online, and so that the other team members could
-access it themselves if they wanted to use it for their own nodes.
-WEEK 4, 1 11/3/19
-I was unable to attend class today, due to being sick.
-WEEK 4, 2 14/3/19
-Had to play a bit of catchup after losing some time to being sick earlier in the week. So today I continued working on the website for Linus, mostly debugging with the node we were getting
-to send the data via MQTT on, since it kept dropping packets for some reason.
-WEEK 5, 1 18/3/19
-Had a scrum regarding the way the whole group was heading. Apparently it was looking like the team wasn't doing much, as we weren't really commiting to gitlab, so there wasn't much evidence on
-what we were actually doing, apart from actually seeing what we were working on. We discussed how the server was sending and receiving data.
-WEEK 5, 2 21/3/19
-Martin ended up bringing up an idea for a "Database Webapp", which would be able to host the information from all of the nodes we've made, and display it to be able to look through it easily.
-Since I'm into the web side of things in the group, I decided to take on the challenge, and began putting a simple HTML site together. 
-WEEK 6, 1 25/3/19
-I've continued work on the database Webapp, converting the site from HTML to a python webapp, like what I'm currently learning in Web 3. I chose this as I found out from Tom that the data is stored
-in a MongoDB database, rather than something like MariaDB, which I already had experience working with. Because of this, I've had to done a lot more research on how to actually connect to the database,
-since I can't find any information in our repositories.
-WEEK 6, 2 28/3/19
-I asked about the Dev Ops team today to see if anyone would be able to give any information about connecting to the database, since I was still having issues doing so on my application. I ended up getting
-referred to Isabel, who apparently did the kind of thing I'm doing last year, and had some documentation regarding it which may help me. I ended up contacting Isabel about the documentation, since it wasn't
-showing up in our repositories for the IoT Project.
-WEEK 6, EXTRA 29/3/19
-Ended up volunteering for Age Concern on Friday, although it didn't end up going anywhere. I arrived 2 minutes early after trying to find a park close by,
-and went in. However, the office was locked and I couldn't find anyone in the building. I ended up waiting for an extra 10 minutes before leaving as nobody
-showed up, and I wasn't able to help out.
-WEEK 7, 1 1/4/19
-Finally caught up with Isabel today, and she showed me how to connect to the MongoDB database, and retrieve information from it. Afterwards, I finally managed to get a connection working, and I had the information
-from the database reading into a console readout, which is a huge step towards the first ticket for the data webapp. I've begun tinkering with passing the data through to the website I've got, and I managed to get
-all of the data actually on the page, although without formatting.
-WEEK 7, 2 4/4/19
-Continued work with the database webapp, formatting the information on the screen. I finally got it formatted and closed the ticket for getting the data onto the webapp. However, That opened other tickets for me such
-as getting the all_data page working, since I could only get the data on the page if you entered a node's name.
-WEEK 8, 1 8/4/19
-Today I found out that the repository that Martin created for the Iot Data webapp was public, and the app.py file contained sensitive information for logging in.
-I've ended up fixing that problem, and began work on trying to format the data for all of the nodes saved in the database. However, I feel like I'm going to have
-to find a different strategy for getting information from the database, as after a 'quick' test, it turned out the webapp would take 5 minutes to load the data and
-display it to the screen. I feel like this wouldn't be acceptable as a final result, so I'm going to research better ways of accessing MongoDB, which will hopefully
-take less time than what I've been using currently.
-WEEK 8, 2 11/4/19
-Currently Reworking the parsing information from the db to the website, as due to what happened on Monday, I figured it wouldn't be acceptable for a webapp to take 5
-minutes to load the information from the server, every time you load the webpage. I've changed it so the webapp loads the data when it's first turned on, and then simply
-grabs the required data when the page is loaded. Currently I'm testing to see if that works.
-MID-SEMESTER BREAK, WEEK 1
-Didn't really achieve much on project work this first week. I ended up spending some time catching up with some friends, working on other class assignments, and having to go to work for some of the days, which didn't leave
-me with much energy or time to work on the project work.
-MID-SEMESTER BREAK, WEEK 2
-I ended up spending some time working on my portfolio, which I plan on hosting on Github pages once I've organized everything for it. In relation to my project work however, I haven't continued working on it yet, but plan
-on returning to it once the semester resumes.
-WEEK 9, 1 29/4/19
-Continued work on reformatting the data from the database onto the webapp. I've managed to get information back onto the webpage after reformatting how the data is loaded from the database into the app itself, but however,
-I'm only currently getting one result when I load the page, so I'm trying different methods on getting the data onto the page now.
-After working with it for a little while longer, I have the data loading to the page, however it is only the latest result from each node, rather than every single reading from the nodes. I'll continue to look at this later,
-as I've run out of time for it right now.
-I've also sent Fletcher some information regarding the MQTT website I created earlier in the semester, since he wanted to add the information to the BIT IoT Project page.
-WEKK 9, 2 2/5/19
-Martin gave me a hand with getting the data passed into the website today, and while doing so helped point out a major flaw with the method I was using to get the
-WEEK 9, EXTRA 3/5/19
-Volunteered at Age Concern again, as per Kerri's request, since the people originally going weren't able to make it. I was given some more information about how to find the proper location this time, so that
-I wouldn't get a repeat of last time. After arriving and finding out what was going on, Nick and I sat down and helped a gentleman out with some issues he was having with his computer at home.
-We spent a good 50 minutes helping this guy out, and he seemed very thankful for all the help we had given him when we were done. He did say there were some other issues he had, however he didn't have the time
-to go over them, since he had to catch a bus afterwards.
-In the end, Nick and I ended up leaving at about 2:15 since the ladies in charge said that they should be fine, and there wasn't any more clients coming in that day. They were very thankful for us coming in and
-helping out however.
-WEEK 10, 1 6/5/19
-Got the data moving to the front end, however decoding it from the JSON file returns undefined in all fields. Another problem I encountered was limiting the amount of data going through from the backend.
-Unfortunately, the data is stored in segments, depending on the device, so using the .limit() function that is included with MongoDB only limits the amount of devices being selected from the database.
-I think I've come up with a solution however, but I'll have to implement it later since I've run out of time for today.
-WEEK 10, 2 9/5/19
-Whole team went to Orokonui Ecosanctuary today, to test out the functionality of the gate sensors and to test the GPS range of the devices to the gateway, which was going to be connected
-at the workshop area of the Ecosanctuary. We ended up going throughout the area, looking at what they had currently for the gates, and seeing if our devices would be easily installed into them,
-or if we would have to do some retrofitting onto the gates. We also got to see a Kiwi, which one of the staff had collected from a roosting box to quickly show us, which was cool.
-Unfortunately, I did have to leave sooner than the rest of the team to make it to my other class, so when I left they were just setting up the gateway for the server.
-WEEK 11, 1 13/5/19
-Today I got the .ENV file working for the webapp, which has helped optimize my workflow with the webapp. I've also managed to limit the amount of entries going into the frontend from the backend. So I'm now going to work on
-fixing the decoding error I'm getting with the frontend Javascript.
-And it's done! I've finally managed to get the data to show on the website. Although currently you can't search for a single device. I've started a new ticket to begin my work on getting the information
-for a single device to show, and once I can get that functionality working again, I can add a searchbar/dropdown list for our devices to search for this again.
-WEEK 11, 2 16/5/19
-Talked with Martin about organizing a few more User stories for the data webapp.
-WEEK 12, 1 20/5/19
-Continued work on the all data page and the navigation for the page. I've got a navbar working currently however I'm not sure if I like the look of it, and may change the style of it later, possibly changing it to a sidebar
-instead, which may work better for user accessibility.
-WEEK 12, 2 23/5/19
-Added some nicer formatting to the node data page, giving a cleaner look to the tables. I've also added the option to toggle the visibility of certain nodes, allowing a user to see information for multiple nodes they wish
-to see. 
-WEEK 13, 1 27/5/19
-Talked to the dev-ops team today about getting a VM organized to host the iotdata webapp. After some issues with information being sent via the ticketing service, I've got the information for logging into the VM, and am currently
-working on adding the required apps to run the webapp on the server.
+16/09/19
+So today we had another meeting to decide what we were gonna do for the next 2 weeks before the holidays. We decided we needed to focus on getting data from the database onto the orokonui web app, so
+I was tasked with doing that. Bee and I began looking into how the app actually got data already, and found out that most if not all of the data on the web app itself was all hardcoded, which actually
+made it easier, since we didn't have to alter the already existing code for it to work. We began tinkering with the data page on the web app, and soon enough, we got a basic query to get an entry from
+the database for the prototype gate that Bee had created. With that being done, we began looking at how to get the data to the map. Unfortunately, this is where we got stuck, we tried many different options,
+but for some reason I could not get the map to update with the required information, even though we were using an AJAX request to get the information from the database.
+19/09/19
+After looking over the web app during the week, I found out why we may not have had any luck with the map getting information. After using a bunch of console.log() commands, we found that even though the AJAX
+request was getting the data, as soon as we went to run the updateMap() function, the information was undefined. I began looking into solutions to fix this, and soon enough I found something that kind've worked.
+
+The solution I had, (Although it didn't turn out to fully fix the issue), was to have the AJAX request in the updateMap() function. This actually let us access the data that was being requested by the AJAX ruquest, 
+and it also meant that the information wasn't being lost.
+23/09/19
+So Today, we had Tony come in to look at what we had done for Orokonui, and although we had the data showing on the web app, it wasn't up to the standard that I wanted it to be. While he looked at the prototypes that 
+the team had developed, I tinkered away at the web app, trying to get the map interface working correctly. I soon found out another issue with the implementation I had done last week. I found out that since it's an AJAX request,
+which is Asyncronous, it was getting the data after the rest of the code was being run. I managed to fix this by changing the AJAX Request to run all the gate information updates inside the request function, which then meant that
+the data that was being collected by the AJAX request was being instantly used instead of sitting like it was before. I had also optimized it so that it wasn't making the AJAX request for each gate, saving on bandwidth.
+
+After the tinkering I had done, I finally got the map displaying a single gate's data over all of the labels on the map, which made it interesting when we were showing Tony, and once the gate was unlocked, all the labels went red,
+rather than just the one the gate it was connected to.
+24/09/19
+So today I wanted to optimize the map and fix the prototype issues we were having yesterday. I changed the SQL query to select all of the gates, instead of only one of them, but that instantly threw an error regarding decoding the
+information. I looked at the query on phpMyAdmin and found out that the query I had written was selecting the earliest entry from each gate, which meant that some of them had un-decodable payloads, which was making my code for getting
+the gate's state break the site. I asked some of my classmates who were taking Databases 3 if they had any idea where I was going wrong with the query, and they even went and tried creating some queries themselves, as well as asking Krissi
+if she knew how to achieve what we wanted, but unfortunately, they could not find a solution with how we had the database set up.
+26/09/19
+So today, I continued to tinker with the SQL Query that I had been working on on Tuesday, and after 20-30 minutes of trying different options, I finally managed to get an SQL query that worked how I wanted it to. I then proceeded to update the
+Javascript so that all the gates would display the new information, but for that to work without errors, I had to limit the gates to 5 instead of 6, since we don't currently have enough boards to create another gate prototype for them all to show up.
+
+<image>
+
+After I got the map working, I began working with some of the javascript files trying to prevent some console errors. Unfortunately, the way that James set up the web app, he had it so that every html page uses the same JS files, meaning that on
+one page, it would try to load the map when the map isn't there, and on another it would try to load the graphs for the data, but there's no container for the graphs.
+
+I fixed the map error by having a location check on the JS file, so that the code only runs if the user is on the correct page. This isn't the best solution, but it works for now until I can find a new solution.
+
+14/10/19
+After our small break over the holidays, we returned ready to begin on a new sprint. Martin greeted us, and let us know that the heatmap webapp wasn't reading data, and hasn't for nearly a month (late September) I figured that it was
+related to when we changed over to The Things Network, and offered to take on the task of fixing the issue. Josh also offered to give me a hand, since he wanted to have a closer look at the webapp, since he was going to be installing
+the webapp onto the Docker Server once it was done.
+
+After looking into the VM for the heatmap, I soon figured out that it was as I suspected, and that the code was calling from the old LoRa network MQTT Broadcasts, so it wasn't able to update the information. Luckily, Henry had already updated
+the code to work with The Things Network, so I thought it would be an easy task of doing a 'git pull' in the repository the app was saved in. However, it wasn't that easy, as we soon found out that the webapp was saved in someone's private repository,
+and it wasn't giving us access because of that. Henry also let me know that the app was being hosted via a 'screen' command, rather than a service or even as an apache service. I knew this wouldn't work in the long run, and ended up looking into
+hosting the app properly, however it soon became quite a task where I had to jump through a lot of hoops to get it working. In the end, I didn't even get it running, and began looking into getting the app running on apache, since it looked like the app's
+backend was run on Django.
+
+Josh and I ended up getting an Apache server running, however the server wouldn't accept the Django files. In the end, I was both getting frustrated and had to leave to get to an appointment, so I decided to leave it and come back once I had a level head.
+
+17/10/19
+After tinkering with the Heatmap webapp since Monday, Josh and I figured out that the webapp was run on a React build, not a Django build. After figuring this out, and spending some time on Wednesday trying to get the webapp working, We figured we'd just
+set up the webapp to run on the Docker container instead of focusing on running it on apache, since we wouldn't even be using it for more than a few weeks while we organized the Docker container. I decided to keep the webapp running on the old janky way
+of running it on a 'screen' prompt.
+
+I went to help Josh with getting the webapp running on a Docker container, but soon found out that the app was being finicky with running the 'npm build' command. We spent a while trying to get the app to build the latest version, since the current build
+version was running the old MQTT broadcast files. We also found out that the only way to get the MQTT broadcasts to be read by the app was to have a relay running. We also found out that said relay was running on Henry's local machine, which would not work
+at all once he leaves, or turns off his machine. So Josh and I decided that we wouldn't bother trying to get the Heatmap running on the Docker container for the moment, but instead focus on getting the relay onto a Docker container, since at least in the current
+form, the app will still run on the VM, however once Henry leaves it will be impossible to have the heatmap collect data.
+
+21/10/19
+Today I went through the orokonui web app that was running on the live Docker container, and soon found out that it wasn't running the up-to-date version of the files which had the SQL implementation, so I initiated a merge request for the branch I was working on
+on my local machine, and once that was merged, I began work on getting the files onto the live server. I thought it would be a simple git pull, however once I did that, the live site broke, and wouldn't show the map. I consulted Josh, since he knew about how the
+docker container worked, and he let me know that it may be because the container hasn't been updated, so he taught me about the 'docker-compose build' and 'docker-compose up' commands. So I ran those two commands, checked the server, and found that it fully broke the
+web app and brought it down to an "Internal Server Error".
+
+Looking at the logs of the docker container, we soon found that it wasn't importing the required files, and it wasn't accessing the .ENV file that we installed for security. After some tinkering with files and adding the .ENV file to the container, we got the webapp
+running on the new files, however it wouldn't load the map still, I went to check the other pages to see if those worked, which they did, but then once we went back to the map page, the map loaded and showed the correct information.
+
+After we made sure the map was fully working, I went on to update the Documentation for the web app to include the information for the docker container, and a better way to install the requirements for a local machine.
+
+24/10/19
+Solder Boards, 3D Print Cases
+
+28/10/19
+Solder Boards, 3D Print Cases
+
+31/10/19
+Orokonui Trip
+
+4/11/19
+Solder More Boards
+
+7/11/19
+Fix 3d Prints, Re-solder Boards where CO2 sensor was broken
+
+8/11/19
+Contact Dev Ops about broken Database VM
+
+11/11/19
+Continue contact with Dev Ops about ongoing issue relating to Database VM
+Send information to Neville of C02 Readings
+
+SELECT time, CONV(SUBSTRING(HEX(FROM_BASE64(payload)), 1, 4), 16, 10) FROM data WHERE app_id = "op_c02" AND time > "2019-11-04 23:59:59" ORDER BY data.time < SQL
+
+14/11/19
+Second Orokonui Trip - Install second gate, fix current gate (replace antenna)
+Fix routes on orokonui web app, begin fixing images on web app
+
+18/11/19
+modify classroom sensor cases for CO2 sensors, 3d print new cases, continue work on fixing webapp images
+
+21/11/19
+Prepare Room for Showcase, move IoT Area to where Games Dev used to be
