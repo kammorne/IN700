@@ -6,9 +6,19 @@ title: Michael Lagocki's Blog
 	{% for tag in tags %}
 		<a href="{{ site.baseurl }}#{{ tag | slugify }}"> {{ tag }} </a>
 	{% endfor %}
-
+	
+	<h2>Semester 2</h2>
 	<ul class="posts">
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
+	{% for post in site.posts %}
+		{% if post.date > 2019-06-21T00:00:00 %}
+	    		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  	{% endif %}
+	{% endfor %}
+	<h2>Semester 1</h2>
+	<ul class="posts">
+	{% for post in site.posts %}
+		{% if post.date < 2019-06-21T00:00:00 %}
+	    		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  	{% endif %}
+	{% endfor %}
 	</ul>
