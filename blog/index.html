@@ -21,7 +21,7 @@ title: All Posts
 	<ul class="posts">
 	{% for post in site.posts %}
 		{% capture postDate %}{{ post.date | date_to_string }}{% endcapture %}
-		{% if postDate <= "20 July 2019" %}
+		{% if postDate <= "21 June 2019" %}
 	    		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  	{% endif %}
 	{% endfor %}
