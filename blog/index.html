@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Michael Lagocki's Blog
+title: All Posts
 ---
 	<h1>{{ page.title }}</h1>
 	{% for tag in tags %}
@@ -14,6 +14,8 @@ title: Michael Lagocki's Blog
 	    		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  	{% endif %}
 	{% endfor %}
+	</ul>
+
 	<h2>Semester 1</h2>
 	<ul class="posts">
 	{% for post in site.posts %}
@@ -21,4 +23,3 @@ title: Michael Lagocki's Blog
 	    		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  	{% endif %}
 	{% endfor %}
-	</ul>
