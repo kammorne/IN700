@@ -8,7 +8,7 @@ tags: classwork project thingsnetwork orokonui jekyll
 
 # Orokonui Trip
 
-Oh boy, here we go, the big day. Today we *Finally* get to deploy one of the gate sensors, a project that's been in development for 3 years now,
+Oh boy, here we go, the big day. Today we *finally* get to deploy one of the gate sensors, a project that's been in development for 3 years now,
 and we finally take the giant leap towards finally finishing the project. Now that being said, the project still has a lot of work to go towards
 it, so I'm not expecting it to be done within the first week of next semester, that would be ridiculous.
 
