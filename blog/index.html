@@ -11,7 +11,7 @@ title: All Posts
 	<ul class="posts">
 	{% for post in site.posts %}
 		{% capture postDate %}{{ post.date }}{% endcapture %}
-		{% if postDate >= "2019-06-21 00:00:00 +0000" %}
+		{% if postDate >= "2019-07-21 00:00:00 +0000" %}
 	    		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  	{% endif %}
 	{% endfor %}
@@ -21,7 +21,7 @@ title: All Posts
 	<ul class="posts">
 	{% for post in site.posts %}
 		{% capture postDate %}{{ post.date }}{% endcapture %}
-		{% if postDate <= "2019-06-21 00:00:00 +0000" %}
+		{% if postDate <= "2019-06-20 00:00:00 +0000" %}
 	    		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  	{% endif %}
 	{% endfor %}
